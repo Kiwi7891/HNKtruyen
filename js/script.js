@@ -36,6 +36,7 @@ mobileBtn.addEventListener('click', function() {
     navBar.style.left = '0';
     mobileBtn.style.display = 'none';
     mobileClose.style.display = 'block';
+    mobileUser.style.display = 'none';
 });
 
 mobileClose.addEventListener('click', closeMobileMenu);
