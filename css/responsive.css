@@ -142,6 +142,7 @@
 @media screen and (max-width: 650px) {
     .update-comic-item {
         flex: 50%;
+        padding: 0 4px;
     }
 }
 
