@@ -1,3 +1,15 @@
+@media screen and (max-width: 1400px) {
+    .update-comics {
+        flex: 100%;
+    }
+
+    .rankings {
+        flex: 100%;
+        padding-left: 0;
+        margin-top: 40px;
+    }    
+}
+
 @media screen and (min-width: 870px) and (max-width: 999px) {
     .navbar-brand {
         padding: 0 40px;
@@ -121,7 +133,19 @@
     .nomination-item {
         width: 5%;
     }
+
+    .row-content {
+        max-width: calc(100vw - 56px);
+    }
 }
+
+@media screen and (max-width: 650px) {
+    .update-comic-item {
+        flex: 50%;
+    }
+}
+
+
 
 @media screen and (max-width: 500px) { 
     .livesearch {
